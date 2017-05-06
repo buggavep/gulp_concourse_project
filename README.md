@@ -35,3 +35,4 @@ gulp
 Your HTML, JavaScript, and Less files under `src` will be processed, bower dependencies gathered, and the output will go to the `build` folder. A BrowserSync server will also be started.
 
 For more information check the [blog post](http://jairtrejo.mx/blog/2014/11/baby-steps-with-gulp).
+# gulp_concourse_project
