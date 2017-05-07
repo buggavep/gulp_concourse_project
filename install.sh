@@ -1,9 +1,9 @@
 #!/bin/bash
 #echo "Hello World"
 
-cat /etc/issue.net
-
-npm install -g bower gulp
+npm install -g bower
 #bower install
-#npm install gulp
-gulp
+
+npm install gulp
+
+./gulp
