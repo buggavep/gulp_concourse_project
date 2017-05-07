@@ -7,4 +7,4 @@ npm install -g bower
 
 npm install gulp
 
-gulp
+./gulp
