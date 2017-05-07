@@ -1,7 +1,10 @@
 #!/bin/bash
 #echo "Hello World"
-cd my-project
-npm install
-bower install
 
-gulp
+cat /etc/redhat-release
+#cd my-project
+#install nodejs
+#npm install bower
+#sudo npm install bower -g
+
+#gulp
