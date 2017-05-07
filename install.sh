@@ -6,3 +6,5 @@ cat /etc/issue.net
 npm install bower -g
 
 npm install gulp
+
+gulp
