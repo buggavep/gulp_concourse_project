@@ -3,7 +3,7 @@
 
 cat /etc/issue.net
 
-npm install bower -g
-bower install
-npm install gulp
+npm install -g bower gulp
+#bower install
+#npm install gulp
 gulp
