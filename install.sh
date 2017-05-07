@@ -5,6 +5,6 @@ cd myworkspace-repo
 npm install -g bower
 #bower install
 
-npm install -g gulp
+npm install gulp
 
 gulp
