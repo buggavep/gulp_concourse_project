@@ -121,6 +121,15 @@ gulp.task("browser-sync", function() {
     });
 });
 
+gulp.task('connect', function(){
+connect.server({
+    root: ['dist'],
+    port: 8000,
+    base: 'http://localhost',
+    livereload: true
+}); 
+
+
 gulp.task("build", ["bower", "html", "scripts", "css", "less", "images", "verbatim"]);
 
 gulp.task("default", ["build", "browser-sync"], function(){
