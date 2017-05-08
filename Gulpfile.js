@@ -11,7 +11,8 @@ var gulp           = require("gulp"),
     less           = require("gulp-less"),
     filter         = require("gulp-filter"),
     glob           = require("glob"),
-    browserSync    = require("browser-sync");
+    browserSync    = require("browser-sync"),
+    watchify       = require('watchify');
 
 var config = {
     paths: {
